@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+#container {
+    display: flex;
+}
+.blue-box {
+	background-color:blue;
+	width: 50%;
+	height: 750px;
+	word-wrap:  normal;
+	
+}
+.red-box {
+  background-color:red;
+	width: 50%;
+	height: 750px;
+	word-wrap:  normal;
+
+}
+img {
+  margin-left:-5%;
+}
+.set {
+  display: flex;
+  margin: 15px;
+
+  
+}
