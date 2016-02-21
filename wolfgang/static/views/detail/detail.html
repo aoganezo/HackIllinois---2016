@@ -1,0 +1,13 @@
+
+<h1>{$ detailid $}</h1>
+<h2>{$ contact[0]['FirstName'] $} {$ contact[0]['LastName'] $}</h2>
+<h3>{$ contact[0]['MailingAddress'] ? contact[0]['MailingAddress'] : "No mailing address" $}</h3>
+
+
+<h4>Your current location: {$ latitude $} {$ longitude $}</h4>
+
+<h4>Nearest airport: {$ nearestairport $}</h4>
+
+<h4>Nearest destination airport: {$ nearestdestairport $}</h4>
+
+<h3>Flight prices: {$ airportsdata $}</h3>

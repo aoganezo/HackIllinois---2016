@@ -17,6 +17,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
+    url(r'^mainapp/', include('mainapp.urls')),
     url(r'^amadeus/', include('amadeus.urls')),
     url(r'^salesforce/', include('salesforce.urls')),
     url(r'^admin/', admin.site.urls),

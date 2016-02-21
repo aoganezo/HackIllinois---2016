@@ -7,7 +7,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-      <h1>Hello world! This is HTML5 Boilerplate. SALESFORCE!</h1>
-      <a href="loginrequest">Head to the login page</a>
+        {% if login_url %}
+        <h1>It's time to log in!</h1>
+        <a href="{{ login_url }}">Login to Salesforce</a>
+        {% else %}
+        <h1>You are logged in!</h1>
+        <a href="/mainapp/">Take me to the main app</a>
+        {% endif %}
     </body>
 </html>

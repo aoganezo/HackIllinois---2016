@@ -1,0 +1,11 @@
+
+<div class="center">
+      <h1>Search for</h1><br>
+      <div class="center">
+        <input id="searchbox" type="search" ng-model=q></input>
+      <div id="contact-list">
+        <ol>
+          <li ng-repeat="contact in contacts | filter:q"><button ng-click="continue(contact['Id'])">{$ contact['FirstName'] $} {$ contact['LastName'] $}</button></li>
+        </ol>
+      </div>
+</div>
