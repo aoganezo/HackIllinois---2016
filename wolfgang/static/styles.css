@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+background-image: url('https://cdn.vectorstock.com/i/composite/27,42/paper-airplane-icon-sign-seamless-pattern-with-vector-5502742.jpg');
+    background-position: 13% 0%;
+    background-size: 60%;
+}
+
+
+.center {
+
+      align-content: ;
+      text-align:center;
+      top: 50%;
+      left: 50%;
+
+        }
+
+#searchbox {
+margin: 0 auto 16px auto;
+width: 250px;
+
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+
+
+}
+li {
+    margin: 4px 0px;
+}
+
+button {
+text-align: left !important;
+    width: 200px;
+}
+
+
+h1 {
+display: none;
+}
+
+h2 {
+font-family: 'Lobster', cursive;
+
+}

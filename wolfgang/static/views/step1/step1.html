@@ -1,11 +1,12 @@
 
 <div class="center">
-      <h1>Search for</h1><br>
-      <div class="center">
-        <input id="searchbox" type="search" ng-model=q></input>
+      <h2>Search</h2><br>
+      <div class="center form-group">
+          <label for="searchbox">Contact Name</label>
+        <input id="searchbox" class="form-control" type="search" placeholder="e.g Bob Smith" ng-model=q></input>
       <div id="contact-list">
         <ol>
-          <li ng-repeat="contact in contacts | filter:q"><button ng-click="continue(contact['Id'])">{$ contact['FirstName'] $} {$ contact['LastName'] $}</button></li>
+          <li ng-repeat="contact in contacts | filter:q"><button class="btn btn-primary" ng-click="continue(contact['Id'])">{$ contact['FirstName'] $} {$ contact['LastName'] $} <i class="fa fa-paper-plane pull-right"></i></button></li>
         </ol>
       </div>
 </div>
